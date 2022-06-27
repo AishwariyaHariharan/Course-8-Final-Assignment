@@ -75,7 +75,7 @@ def compute_data_choice_2(df):
 app.layout = html.Div(children=[ 
                                 # TASK1: Add title to the dashboard
                                 # Enter your code below. Make sure you have correct formatting.
-    html.H1('US Domestic Airline Flights Performance', style={'textAlign': 'center', 'color': '#503D36', 'font-size': 24 })
+    html.H1('US Domestic Airline Flights Performance', style={'textAlign': 'center', 'color': '#503D36', 'font-size': 24 }),
                                 # REVIEW2: Dropdown creation
                                 # Create an outer division 
                                 html.Div([
@@ -95,7 +95,7 @@ app.layout = html.Div(children=[
                            {'label': 'Yearly Airline Delay Report', 'value': 'OPT2'}
                            ],
                   placeholder='Select a report type',
-                  style={'width': '80%', 'padding': '3px', 'font-size': '20px', 'textAlign': 'center' }})
+                  style={'width': '80%', 'padding': '3px', 'font-size': '20px', 'textAlign': 'center' })
                                     # Place them next to each other using the division style
                                     ], style={'display':'flex'}),
                                     
@@ -132,7 +132,7 @@ app.layout = html.Div(children=[
                                         html.Div([ ], id='plot5')
                                 ], style={'display': 'flex'})
                                 ])  
-                                ])
+                    
 
 # Callback function definition
 # TASK4: Add 5 ouput components
